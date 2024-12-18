@@ -25,9 +25,8 @@ export const environment = {
             default: 'ko',
             array: [
                 'ko',
-                'fr',
                 'en'
             ],
         },
-    }
+    },
 };

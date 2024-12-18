@@ -592,10 +592,7 @@
   },
   "LANG": {
     "en": "English",
-    "ko": "Korean",
-    "fr": "French",
-    "ru": "Russian",
-    "es": "Spanish"
+    "ko": "Korean"
   },
   "filemanager": {
     "title": "File Manager",

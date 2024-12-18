@@ -12,9 +12,9 @@ export const environment = {
     shippingApi: window["env"]["APP_SHIPPING_URL"] || 'http://localhost:9090/api',
     client: {
         language: {
-            default: window["env"]["APP_DEFAULT_LANGUAGE"] || 'fr',
+            default: window["env"]["APP_DEFAULT_LANGUAGE"] || 'ko',
             array: [
-                'fr',
+                'ko',
                 'en'
             ],
         },

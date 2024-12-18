@@ -69,7 +69,7 @@ export class OrderDetailsComponent implements OnInit {
   orderID: any;
   defaultCountry: any;
   buttonText: any = 'Update Order'
-  languages: Array<any> = [{ 'code': 'ko', 'name': 'Korean' }, { 'code': 'en', 'name': 'English' }, { 'code': 'fr', 'name': 'French' }]
+  languages: Array<any> = [{ 'code': 'ko', 'name': 'Korean' }, { 'code': 'en', 'name': 'English' }]
   constructor(private ordersService: OrdersService, private toastr: ToastrService,
     private dialogService: NbDialogService, private router: Router) {
     // console.log(this.router.getCurrentNavigation());
